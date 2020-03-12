@@ -1,0 +1,131 @@
+body {
+    background-color: #DCDCDC;
+    text-align: center;
+}
+
+body img {
+    width: 170px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header .box > img {
+    width: 500px;
+    height: 80px;
+    margin: 10px;
+}
+
+.header .box > p {
+    font-size: 25px;
+    margin-top: 80px;
+    padding-left: 30px;
+    color: white;
+}
+
+.header .box {
+    width: 1330px;
+    height: 130px;
+    background: #FF8A65;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 5);
+    display: flex;
+}
+
+.carousel {
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel .slides img {
+    width: 900px; 
+    height: 320px;
+}
+
+.slide-left, .slide-right {
+    position: absolute;
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    background: #333;
+    padding: 5px 10px;
+    top: 40%;
+    transition: opacity 0.5s;
+    opacity: 0.4;
+}
+
+.slide-left {
+    left: 228px;
+}
+
+.slide-right {
+    right: 228px;
+    border-radius: 3px 0 0 3px;
+}
+
+.slide-left:hover, .slide-right:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.boxes {
+    width: 800px;
+    height: 190px;
+    background: #DCDCDC;
+    display: flex;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+}
+
+.boxes h3 {
+    margin: 0;
+}
+
+.boxes .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+
+    width: 270px;
+    height: 160px;
+    background: white;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 5);
+}
+
+.card1 {
+    width: 300px;
+    height: 220px;
+    background: #F4F6F7;
+    margin: 80px;
+}
+
+
+.box4 {
+    width: 1330px;
+    height: 340px;
+    background: #F4F6F7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 5);
+    display: flex;
+}
+
+.box5 {
+    width: 1330px;
+    height: 100px;
+    background: #FF8A65;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 5);
+    display: flex;
+    justify-content: center;
+}
+
+.box5 p {
+    align-self: center;
+}
